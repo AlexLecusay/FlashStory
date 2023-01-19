@@ -21,7 +21,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/AlexLecusay/FlashStory/blob/main/Superhero%20Gif.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/AlexLecusay/FlashStory/blob/main/Superhero%20Gif.gif?raw=true' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 ## Notes
 
