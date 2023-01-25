@@ -77,6 +77,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="heroImage" destination="zPN-M5-PnL" id="4oM-Mw-6Un"/>
+                        <outlet property="mainHeroImg" destination="zPN-M5-PnL" id="9Yn-as-Hhq"/>
                         <segue destination="06y-np-SgE" kind="show" identifier="detailSegue" id="dO0-dy-h9b"/>
                     </connections>
                 </viewController>

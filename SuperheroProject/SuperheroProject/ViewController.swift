@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var mainHeroImg: UIImageView!
+    
     let backstory = Hero(
         detailImage: UIImage(named: "FlashBackstory")!,
         detailString: "Flash, or better known as Barry Allen who gains super-human speed after the explosion of the S.T.A.R. Labs' particle accelerator which he uses to fight crime and hunt other metahumans in Central City as the Flash, a masked superhero.")
@@ -23,7 +25,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        makeImgCirlce()
+    }
+    
+    func makeImgCirlce() {
+        mainHeroImg.layer.cornerRadius = mainHeroImg.frame.size.height/2.0
+        mainHeroImg.clipsToBounds = true
     }
     
     @IBAction func didTapDetail(_ sender: UITapGestureRecognizer) {
